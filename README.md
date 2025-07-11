@@ -25,13 +25,16 @@ There is some text to test, how it looks.
 ## Images
 
 <details>
-<summary> To expand for image 1 click here </summary>
-![First image to diplay](images/jw1.png)
+    <summary> To expand for image 1 click here </summary>
+
+![First image to display](images/jw1.png)
 </details>
 
 <details>
-<summary> To expand for image 2 click here </summary>
-![Second image to diplay](images/jw2.png)
+    <summary> To expand for image 2 click here </summary>
+
+![Second image to display](images/jw2.png)
+
 </details>
 
 ## Code
