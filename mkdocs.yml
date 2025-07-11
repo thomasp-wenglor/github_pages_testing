@@ -1,0 +1,32 @@
+site_name: Mkdocs example page
+site_description: This is an example page for the Mkdocs documentation.
+site_url: https://thomasp-wenglor.github.io/github_pages_testing/
+repo_url: https://github.com/thomasp-wenglor/github_pages_testing
+repo_name: github_pages_testing
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - content.code.copy
+    - toc.integrate
+    - search.highlight
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight
+  - pymdownx.snippets
+
+docs_dir: docs
