@@ -8,8 +8,8 @@ Table of content
 - [Images](#images)
 - [Code](#code)
 - [Chapter with sections](#chapter-with-sections)
-  - [subsection 1](#subsection-1)
-  - [subsection 2](#subsection-2)
+    - [subsection 1](#subsection-1)
+    - [subsection 2](#subsection-2)
 
 ## History
 
@@ -31,9 +31,16 @@ There is some text to test, how it looks.
 </details>
 
 <details>
-    <summary> To expand for image 2 click here </summary>
+    <summary> To expand for the code segment 2 click here </summary>
 
-![Second image to display](images/jw2.png)
+```C++
+#include <iostream>
+
+int main(int argc, char* argv[])
+{
+    std::cout << "This is some example code" << std::endl;
+}
+```
 
 </details>
 
