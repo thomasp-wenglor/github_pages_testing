@@ -33,13 +33,20 @@ There is some text to test, how it looks.
 <details>
     <summary> To expand for image 2 click here </summary>
 
-![Second image to display](images/jw2.png)
+```cpp
+#include <iostream>
+
+int main(int argc, char* argv[])
+{
+    std::cout << "This is some example code" << std::endl;
+}
+```
 
 </details>
 
 ## Code
 
-```C++
+```cpp
 #include <iostream>
 
 int main(int argc, char* argv[])
